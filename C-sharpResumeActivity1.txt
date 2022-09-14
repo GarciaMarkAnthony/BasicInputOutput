@@ -1,0 +1,83 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+namespace Mains
+{
+    class Lequin
+    {
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter your name: ");
+        string name = Console.ReadLine();
+        
+        Console.WriteLine("Enter your present adress: ");
+        string presentadress = Console.ReadLine();
+        
+        Console.WriteLine("Enter your permanent adress: ");
+        string permanentadress = Console.ReadLine();
+        
+        Console.WriteLine("Enter your date of birth: ");
+        int birth;
+        Console.ReadLine();
+        
+        Console.WriteLine("Enter your civil status: ");
+        string civilstatus = Console.ReadLine();
+        
+        Console.WriteLine("Enter your citizenship: ");
+        string citizenship = Console.ReadLine();
+        
+        Console.WriteLine("Enter your place of birth: ");
+        string placeofbirth = Console.ReadLine();
+        
+        Console.WriteLine("Enter your father name: ");
+        string fathersname = Console.ReadLine();
+        
+        Console.WriteLine("Enter your mother name: ");
+        string mothersname = Console.ReadLine();
+        
+        Console.WriteLine("Enter your address: ");
+        string address = Console.ReadLine();
+        
+        Console.WriteLine("Enter your language spoken: ");
+        string languagespoken = Console.ReadLine();
+        
+        Console.WriteLine("Enter your person be notified in case of emergency: ");
+        string emergency = Console.ReadLine();
+        
+        Console.WriteLine("Enter your religion: ");
+        string religion = Console.ReadLine();
+        
+        Console.WriteLine("Enter your age: ");
+        int age;
+        Console.ReadLine();
+        
+        Console.WriteLine("Enter your height: ");
+        int height;
+        Console.ReadLine();
+        
+        Console.WriteLine("Enter your weight: ");
+        int weight;
+        
+        birth = Convert.ToInt32(Console.Read());
+        age = Convert.ToInt32(Console.Read());
+        height = Convert.ToInt32(Console.Read());
+        weight = Convert.ToInt32(Console.Read());
+        
+        Console.WriteLine("Name: + name);
+        Console.WriteLine("Present Address: + presentadress);
+        Console.WriteLine("Permanent Address: + permanentaddress);
+        Console.WriteLine("Date of Birt: + dateofbirth + "Religion:" + religion);
+        Console.WriteLine("Civil Status: + civilstatus + "Age: " + age);
+        Console.WriteLine("Citizenship: + citizenship + "Weight: " + weight);
+        Console.WriteLine("Place of Birth: + placeofbirth + "Height: " + height);
+        Console.WriteLine("Name of Father: + fathername);
+        Console.WriteLine("Name of Mother: + mothername);
+        Console.WriteLine("Address: + address);
+        Console.WriteLine("Language Spoken: + languagespoken);
+        Console.WriteLine("Person Notified in Emergency: + emergency);
+        
+        Console.ReadKey();
+    }
+    }
+}
